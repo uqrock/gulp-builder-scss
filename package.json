@@ -1,0 +1,52 @@
+{
+  "name": "gulp-builder",
+  "version": "1.0.0",
+  "description": "frontend starter-kit",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp dev",
+    "build": "gulp build"
+  },
+  "author": "uqrock:)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.7",
+    "core-js": "^3.2.1",
+    "del": "^5.0.0",
+    "eslint": "^6.1.0",
+    "eslint-config-htmlacademy": "^0.5.2",
+    "eslint-plugin-import": "^2.18.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-x-includer": "^0.1.2",
+    "imagemin-giflossy": "^5.1.10",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "imagemin-zopfli": "^6.0.0",
+    "require-dir": "^1.2.0",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-order": "^3.0.1",
+    "webpack": "^4.39.2",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "svg4everybody": "^2.1.9"
+  }
+}

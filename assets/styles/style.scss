@@ -1,0 +1,28 @@
+@import "utils/libs";
+@import "utils/vars";
+@import "utils/mixins";
+@import "utils/fonts";
+
+html {
+   box-sizing: border-box;
+   //  outline: 1px solid red;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+   outline: none;
+}
+
+body {
+   color: $text-color;
+   font-family: $base-font-family;
+   font-size: $base-font-size;
+   margin: 0;
+   min-width: 320px;
+   padding: 0;
+}
+
+//Модули
+@import "modules/modules";
